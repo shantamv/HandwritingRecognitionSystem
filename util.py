@@ -61,8 +61,8 @@ def target_list_to_sparse_tensor(targetList):
 def LoadClasses(path):
     data = {}
     with codecs.open(path, 'r', encoding='utf-8') as cF:
-	    data = cF.read().split('\n')
-    return data
+		data = cF.read().split('\n')
+		return data
 
 def LoadList(path):
     with open(path) as vlist:
